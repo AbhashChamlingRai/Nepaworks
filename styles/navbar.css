@@ -9,8 +9,12 @@ body {
     padding: 0;
     margin: 0;
 }
-a {
+.navigation_bar div a {
     text-decoration: none;
+    transition: color 0.3s cubic-bezier(.46,.03,.52,.96);
+}
+.navigation_bar a:hover {
+    color: #1d80d1;
 }
 
 .navigation_bar, .navbar_empty_section {

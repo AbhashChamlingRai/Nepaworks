@@ -1,3 +1,12 @@
+.footer_section div a {
+    text-decoration: none;
+    transition: color 0.3s cubic-bezier(.46,.03,.52,.96);
+}
+.footer_section a:hover {
+    color: #D45804;
+}
+
+
 .footer_section {
     padding: 2vw 4.4%;
     /* width: 100%; */
