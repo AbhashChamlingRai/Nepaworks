@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/fonts.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="description of site - TO CHANGE" />
+    <meta name="keywords" content="add, some, keywords" />
+
+    <title>Nepaworks - Nepali freelancing website</title>
+    <!--[if lt IE 9]> <script src="scripts/html5shiv.js"> </script> <![endif] -->
+    <!--
+    Author: Abhash Rai and 23140736 
+    Organisation: Birmingham City University
+    Copyright: Copyright 2021
+    -->
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <section class="navigation_bar">
+        <div class="text_logo navbaritems">
+            <a href="#">
+                <div class="NEPA">NEPA</div>
+                <div class="WORKS">WORKS</div>
+            </a>
+        </div>
+
+        <div class="to_hide empty"></div>
+
+        <div class="to_hide navbaritems"><a href="#">Home</a></div>
+
+        <div class="to_hide navbaritems"><a href="#">Posted Jobs</a></div>
+
+        <div class="to_hide navbaritems"><a href="#">Profile</a></div>
+
+        <div class="to_hide navbaritems">|</div>
+
+        <div class="to_hide navbaritems"><a href="#">Become A Freelancer</a></div>
+
+        <div class="to_hide empty"></div>
+
+        <div class="nav_bar_signin_button_outer navbaritems">
+            <a href="#">
+                <div class="nav_bar_signin_button">Sign In</div>
+            </a>
+        </div>
+
+        <div class="nav_icons_container navbaritems">
+            <a class="nav_desktop" href="#"><img src="../graphics/icons/small_search_Icon.svg" alt="Small Search Icon"></a>
+            <div class="hamburger_icon_container">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="nav_mobile_container toggle-visibility">
+                    <button class="nav_mobile"><img src="../graphics/icons/menu.svg" alt="Small Hamburger Icon"></button>
+                </label>
+
+                <section class="mobile_view_nagivation_slidein toggle-visibility">
+                    <div>NEPAworks helps you connect with Nepal's top professionals, find work and create network!</div>
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">Search</a></div>
+                    <div><a href="#">Log In</a></div>
+                    <div><a href="#">Become A Freelancer</a></div>
+                    <div><a href="#">Posted Jobs</a></div>
+                    <div><a href="#">Profile</a></div>
+                    <div><a href="#">References</a></div>
+                </section>
+            </div>
+            
+        </div>
+    </section>
+    <section class="navbar_empty_section"></section>
+
+    <section 
+    class="homepage_top_section"
+    style="
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    ">
+        <div 
+        class="homepage_top_section_left">
+            <div class="homepage_top_section_left_top">
+                <div 
+                class="homepage_top_section_left_top_elementContainer"
+                style="
+                    display: grid;
+                    grid-template-rows: 38% 24% 3% 35%;
+                ">
+                    <div class="homepage_top_section_left_top_item1">Expertise At<br/>Your Fingertips</div>
+                    <div class="homepage_top_section_left_top_item2">Find your next Project or Hire Top Talents</div>
+                    <div class="homepage_top_section_left_top_item3">
+                        <div></div>
+                    </div>
+                    <div class="homepage_top_section_left_top_item4"><span style="font-weight:800">NEPAworks</span> helps you connect with Nepal's top professionals, find work and create network!</div>
+                </div>
+            </div>
+            <div class="homepage_top_section_left_bottom">
+                <div 
+                class="homepage_top_section_left_bottom_elementContainer"
+                style="
+                    display: grid;
+                    grid-template-rows: 25% 50% 25%;
+                ">
+                    <form 
+                    class="homepage_top_section_left_bottom_item1"
+                    style="
+                        display: grid;
+                        grid-template-columns: 90% 10%;
+                    ">
+                        <div>
+                            <input type="text" id="homepage_search_text" name="homepage_search_text" placeholder="Start a new job search">
+                        </div>
+                        <div>
+                            <button type="submit"><img src="../graphics/icons/small_search_Icon.svg" width="90%"></button>
+                        </div>
+                    </form>
+                    <div 
+                    class="homepage_top_section_left_bottom_item2"
+                    style="
+                        display: grid;
+                        grid-template-columns: 15% 85%;
+                    ">
+                        <div class="homepage_top_section_left_bottom_item2_try">Try:</div>
+                        <div
+                        class="homepage_top_section_left_bottom_item2_keywords"
+                        style="
+                            display: grid;
+                            grid-template-rows: 50% 50%;
+                        ">
+                            <div
+                                style="
+                                display: grid;
+                                grid-template-columns: 30% 25% 45%;
+                            ">
+                                <div class="homepage_search_keywords"><a href="#">Plumbing</a></div>
+                                <div class="homepage_search_keywords"><a href="#">Wiring</a></div>
+                                <div class="homepage_search_keywords"><a href="#">Graphics Design</a></div>
+                            </div>
+                            <div
+                            style="
+                            display: grid;
+                            grid-template-columns: 40% 20% 40%;
+                        ">
+                                <div class="homepage_search_keywords"><a href="#">Website Design</a></div>
+                                <div class="homepage_search_keywords"><a href="#">Repair</a></div>
+                                <div class="homepage_search_keywords"><a href="#">Video Editing</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="homepage_top_section_left_bottom_item3">
+                        <a href="#"><div>Or --> Post a job - For free!</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div
+        class="homepage_top_section_right"
+        style="
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-template-rows: 50% 50%;
+        ">
+            <div class="dp_container Anya">
+                <div 
+                class="dp_card1 dp_card"
+                style="
+                    display: grid;
+                    grid-template-rows: 32% 33% 35%;
+                ">
+                    <div class="name">Anya Desai</div>
+                    <div class="designation">Developer</div>
+                    <div 
+                    class="star_container"
+                    style="
+                        display: grid;
+                        grid-template-columns: 20% 20% 20% 20% 20%;
+                    ">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                </div>
+                <div class="homepage_people_dp1 dp"></div>
+            </div>
+            <div class="dp_container Jai">
+                <div 
+                class="dp_card2 dp_card"
+                style="
+                    display: grid;
+                    grid-template-rows: 32% 33% 35%;
+                ">
+                    <div class="name">Jai Sharma</div>
+                    <div class="designation">Electric Technician</div>
+                    <div 
+                    class="star_container"
+                    style="
+                        display: grid;
+                        grid-template-columns: 20% 20% 20% 20% 20%;
+                    ">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="homepage_people_dp2 dp"></div>
+            </div>
+            <div class="dp_container David">
+                <div class="homepage_people_dp3 dp"></div>
+                <div 
+                class="dp_card3 dp_card"
+                style="
+                    display: grid;
+                    grid-template-rows: 32% 33% 35%;
+                ">
+                    <div class="name">David Owen</div>
+                    <div class="designation">Marketing</div>
+                    <div 
+                    class="star_container"
+                    style="
+                        display: grid;
+                        grid-template-columns: 20% 20% 20% 20% 20%;
+                    ">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dp_container Zara">
+                <div class="homepage_people_dp4 dp"></div>
+                <div 
+                class="dp_card4 dp_card"
+                style="
+                    display: grid;
+                    grid-template-rows: 32% 33% 35%;
+                    font-size: 1.2vw;
+                ">
+                    <div class="name">Zara Zones</div>
+                    <div class="designation">Designer</div>
+                    <div 
+                    class="star_container"
+                    style="
+                        display: grid;
+                        grid-template-columns: 20% 20% 20% 20% 20%;
+                    ">
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                        <div class="star"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="homepage_purpose_section">
+        <div class="homepage_purpose_section_left_container">
+            <div>OUR PURPOSE</div>
+        </div>
+        <div class="homepage_purpose_section_right_container">
+            <div>
+                <p>Welcome to Nepaworks! Our platform is designed to help skilled professionals and businesses in Nepal connect with clients and grow their businesses. We believe that by connecting the right people with the right opportunities, we can create a more vibrant and successful economy in Nepal.</p>
+                <br/>
+                <p>At Nepaworks, our vision is to be the premier platform for professionals and businesses in Nepal, connecting them with the resources they need to succeed. Our mission is to create a user-friendly platform that helps skilled professionals and businesses in Nepal to connect with clients and grow their businesses. We believe that by providing a high-quality service and connecting users with the resources they need, we can contribute to the growth and success of the economy in Nepal. We are committed to always improving and growing to meet the needs of our users.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer_section">
+
+        <div 
+        class="footer_container">
+            <div class="footer_item_top_left">
+                <div>
+                    <span class="NEPA">NEPA</span>
+                    <span class="WORKS">WORKS</span>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_top_mid"
+            style="
+            display: grid;
+            row-gap: 10%;
+            grid-template-rows: 25% 65%;
+            ">
+                <div>Address and Email</div>
+                <div>
+                    Dipaawali Margh,<br/>
+                    Satdobato-15, Lalitpur,<br/>
+                    Nepal<br/>
+                    <span style="color:#D45804">nepa.works@gmail.com</span>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_top_right"
+            style="
+            display: grid;
+            row-gap: 10%;
+            grid-template-rows: 25% 65%;
+            ">
+                <div>FOLLOW #NEPAWORKS</div>
+                <div
+                class="footer_icons_container"
+                style="
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                ">
+                    <div><a href="#instagram"><img src="../graphics/icons/insta_icon.svg" alt="Instagram Icon"></a></div>
+                    <div><a href="#facebook"><img src="../graphics/icons/fb_icon.svg" alt="Facebook Icon"></a></div>
+                    <div><a href="#linkedIn"><img src="../graphics/icons/linkedIn_icon.svg" alt="LinkedIn Icon"></a></div>
+                    <div><a href="#twitter"><img src="../graphics/icons/twitter_icon.svg" alt="Twitter Icon"></a></div>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_bottom_left"
+            style="
+                display: grid;
+                grid-template-rows: 40% 40%;
+                row-gap: 20%;
+            ">
+                <div class="footer_references_link"><a href="#" style="text-decoration: none">References</a></div>
+                <div>© 2022, Nepaworks</div>
+            </div>
+            
+            <div 
+            class="footer_item_bottom_mid"
+            style="
+                display: grid;
+                grid-template-rows: 40% 40%;
+                row-gap: 20%;
+            ">
+                <div><a href="#" style="text-decoration: none">Home</a></div>
+                <div><a href="#" style="text-decoration: none">Become a freelancer</a></div>
+            </div>
+
+            <div 
+            class="footer_item_bottom_right"
+            style="
+                display: grid;
+                grid-template-columns: 50% 40%;
+                column-gap: 10%;
+            ">
+                <div
+                style="
+                    display: grid;
+                    grid-template-rows: 40% 40%;
+                    row-gap: 20%;
+                ">
+                    <div><a href="#" style="text-decoration: none">Find work</a></div>
+                    <div><a href="#" style="text-decoration: none">Profile</a></div>
+                </div>
+                <div
+                style="
+                    display: grid;
+                    grid-template-rows: 40% 40%;
+                    row-gap: 20%;
+                ">
+                    <div></div>
+                    <div class="back_to_top_container">
+                        <a href="#top" style="text-decoration: none; color:#D45804;">Back to top ↑</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
