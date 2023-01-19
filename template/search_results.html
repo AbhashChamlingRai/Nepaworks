@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="../styles/search_results.css" />
+    <link rel="stylesheet" href="../styles/fonts.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="description of site - TO CHANGE" />
+    <meta name="keywords" content="add, some, keywords" />
+
+    <title>Nepaworks - Nepali freelancing website</title>
+    <!--[if lt IE 9]> <script src="scripts/html5shiv.js"> </script> <![endif] -->
+    <!--
+    Author: Abhash Rai and 23140736 
+    Organisation: Birmingham City University
+    Copyright: Copyright 2021
+    -->
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <section class="navigation_bar">
+        <div class="text_logo navbaritems">
+            <a href="./index.html">
+                <div class="NEPA">NEPA</div>
+                <div class="WORKS">WORKS</div>
+            </a>
+        </div>
+
+        <div class="to_hide empty"></div>
+
+        <div class="to_hide navbaritems"><a href="#">Home</a></div>
+
+        <div class="to_hide navbaritems"><a href="#">Posted Jobs</a></div>
+
+        <div class="to_hide navbaritems"><a href="#">Profile</a></div>
+
+        <div class="to_hide navbaritems">|</div>
+
+        <div class="to_hide navbaritems"><a href="#">Become A Freelancer</a></div>
+
+        <div class="to_hide empty"></div>
+
+        <div class="nav_bar_signin_button_outer navbaritems">
+            <a href="#">
+                <div class="nav_bar_signin_button">Sign In</div>
+            </a>
+        </div>
+
+        <div class="nav_icons_container navbaritems">
+            <a class="nav_desktop" href="#"><img src="../graphics/icons/small_search_Icon.svg" alt="Small Search Icon"></a>
+            <div class="hamburger_icon_container">
+                <input type="checkbox" id="toggle">
+                <label for="toggle" class="nav_mobile_container toggle-visibility">
+                    <button class="nav_mobile"><img src="../graphics/icons/menu.svg" alt="Small Hamburger Icon"></button>
+                </label>
+
+                <section class="mobile_view_nagivation_slidein toggle-visibility">
+                    <div>NEPAworks helps you connect with Nepal's top professionals, find work and create network!</div>
+                    <div><a href="./index.html">Home</a></div>
+                    <div><a href="./search_results.html">Search</a></div>
+                    <div><a href="#">Log In</a></div>
+                    <div><a href="#">Become A Freelancer</a></div>
+                    <div><a href="#">Posted Jobs</a></div>
+                    <div><a href="#">Profile</a></div>
+                    <div><a href="#">References</a></div>
+                </section>
+            </div>
+            
+        </div>
+    </section>
+    <section class="navbar_empty_section"></section>
+
+    <section class="search_results_container_outer">
+        <div class="search_results_container_inner">
+            <form 
+            class="search_field"
+            style="
+                display: grid;
+                grid-template-columns: 90% 10%;
+            ">
+                <div>
+                    <input type="text" id="homepage_search_text" name="homepage_search_text" placeholder="Start a new job search">
+                </div>
+                <div>
+                    <button type="submit" ><a href="./search_results.html"><img src="../graphics/icons/small_search_Icon.svg"></a></button>
+                </div>
+            </form>
+
+            <div class="search_result_items item1">
+                <div class="job_title">
+                    <div class="job_type" data-text="Translation:"></div>
+                    <div class="job_text" data-text="Need Translation Services from English to Nepali"></div>
+                    <div class="job_location" data-text="(Lalitpur)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 5/word"></div>
+                    <div class="job_time" data-text="1 week"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item2">
+                <div class="job_title">
+                    <div class="job_type" data-text="Graphic Design:"></div>
+                    <div class="job_text" data-text=" Seeking Graphic Designer for Website Redesign"></div>
+                    <div class="job_location" data-text="(Kathmandu)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 50,000-60,000"></div>
+                    <div class="job_time" data-text="3 week"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item3">
+                <div class="job_title">
+                    <div class="job_type" data-text="Writing:"></div>
+                    <div class="job_text" data-text="Seeking Content Writer for Blog Posts"></div>
+                    <div class="job_location" data-text="(Kathmandu)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 1,000/article"></div>
+                    <div class="job_time" data-text="As needed"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item4">
+                <div class="job_title">
+                    <div class="job_type" data-text="Marketing:"></div>
+                    <div class="job_text" data-text="Seeking Social Media Manager for Local Business"></div>
+                    <div class="job_location" data-text="(Biratnagar)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 30,000-50,000/month"></div>
+                    <div class="job_time" data-text="Ongoing"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item5">
+                <div class="job_title">
+                    <div class="job_type" data-text="Photography:"></div>
+                    <div class="job_text" data-text="Need Professional Photographer for Event"></div>
+                    <div class="job_location" data-text="(Pokhara)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 10,000-15,000"></div>
+                    <div class="job_time" data-text="1 week"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item6">
+                <div class="job_title">
+                    <div class="job_type" data-text="Electrical repair:"></div>
+                    <div class="job_text" data-text="Need Electrician for Commercial Building"></div>
+                    <div class="job_location" data-text="(Lagankhel)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 5,000-10,000"></div>
+                    <div class="job_time" data-text="2 days"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="search_result_items item7">
+                <div class="job_title">
+                    <div class="job_type" data-text="Plumbing:"></div>
+                    <div class="job_text" data-text="Seeking Plumber for Home Repair"></div>
+                    <div class="job_location" data-text="(Lagankhel)"></div>
+                </div>
+                <div class="job_box_options">
+                    <div class="pay_rate" data-text="NPR 30,000-50,000"></div>
+                    <div class="job_time" data-text="10 days"></div>
+                    <div class="view_more_btn"><a href="#">View More</a></div>
+                    <div class="apply_btn"><a href="#">Apply</a></div>
+                </div>
+            </div>
+
+            <div class="load_more_btn_container">
+                <a href="#" class="load_more_btn">Load More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer_section">
+
+        <div 
+        class="footer_container">
+            <div class="footer_item_top_left">
+                <div>
+                    <span class="NEPA">NEPA</span>
+                    <span class="WORKS">WORKS</span>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_top_mid"
+            style="
+            display: grid;
+            row-gap: 10%;
+            grid-template-rows: 25% 65%;
+            ">
+                <div>Address and Email</div>
+                <div>
+                    Dipaawali Margh,<br/>
+                    Satdobato-15, Lalitpur,<br/>
+                    Nepal<br/>
+                    <span style="color:#D45804">nepa.works@gmail.com</span>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_top_right"
+            style="
+            display: grid;
+            row-gap: 10%;
+            grid-template-rows: 25% 65%;
+            ">
+                <div>FOLLOW #NEPAWORKS</div>
+                <div
+                class="footer_icons_container"
+                style="
+                display: grid;
+                grid-template-columns: auto auto auto auto;
+                ">
+                    <div><a href="#instagram"><img src="../graphics/icons/insta_icon.svg" alt="Instagram Icon"></a></div>
+                    <div><a href="#facebook"><img src="../graphics/icons/fb_icon.svg" alt="Facebook Icon"></a></div>
+                    <div><a href="#linkedIn"><img src="../graphics/icons/linkedIn_icon.svg" alt="LinkedIn Icon"></a></div>
+                    <div><a href="#twitter"><img src="../graphics/icons/twitter_icon.svg" alt="Twitter Icon"></a></div>
+                </div>
+            </div>
+
+            <div 
+            class="footer_item_bottom_left"
+            style="
+                display: grid;
+                grid-template-rows: 40% 40%;
+                row-gap: 20%;
+            ">
+                <div class="footer_references_link"><a href="#" style="text-decoration: none">References</a></div>
+                <div>© 2022, Nepaworks</div>
+            </div>
+            
+            <div 
+            class="footer_item_bottom_mid"
+            style="
+                display: grid;
+                grid-template-rows: 40% 40%;
+                row-gap: 20%;
+            ">
+                <div><a href="./index.html" style="text-decoration: none">Home</a></div>
+                <div><a href="#" style="text-decoration: none">Become a freelancer</a></div>
+            </div>
+
+            <div 
+            class="footer_item_bottom_right"
+            style="
+                display: grid;
+                grid-template-columns: 50% 40%;
+                column-gap: 10%;
+            ">
+                <div
+                style="
+                    display: grid;
+                    grid-template-rows: 40% 40%;
+                    row-gap: 20%;
+                ">
+                    <div><a href="#" style="text-decoration: none">Find work</a></div>
+                    <div><a href="#" style="text-decoration: none">Profile</a></div>
+                </div>
+                <div
+                style="
+                    display: grid;
+                    grid-template-rows: 40% 40%;
+                    row-gap: 20%;
+                ">
+                    <div></div>
+                    <div class="back_to_top_container">
+                        <a href="#top" style="text-decoration: none; color:#D45804;">Back to top ↑</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
