@@ -1,6 +1,7 @@
 * {
     color: white;
     margin: 0;
+    transition: all 0.2s cubic-bezier(.79,.14,.15,.86);
 }
 html {
     scroll-behavior: smooth;
@@ -14,9 +15,9 @@ body {
     transition: color 0.3s cubic-bezier(.46,.03,.52,.96);
 }
 .navigation_bar a:hover {
-    color: #1d80d1;
+    color: #1da343;
+    /* scale: 1.2; */
 }
-
 .navigation_bar, .navbar_empty_section {
     height: 11vh;
 }

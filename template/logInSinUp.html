@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="../styles/search_results.css" />
     <link rel="stylesheet" href="../styles/fonts.css" />
     <link rel="stylesheet" href="../styles/navbar.css" />
     <link rel="stylesheet" href="../styles/footer.css" />
+
+    <link rel="stylesheet" href="../styles/logInSinUp.css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -27,6 +28,9 @@
 </head>
 
 <body>
+
+    
+
     <section class="navigation_bar">
         <div class="text_logo navbaritems">
             <a href="./index.html">
@@ -79,124 +83,127 @@
     </section>
     <section class="navbar_empty_section"></section>
 
+    <section class="logInSignUpContainer">
+        
+        <div class="logInContainer">
 
-    <section class="search_results_container_outer">
-        <div class="search_results_container_inner">
-            <form 
-            class="search_field"
-            style="
-                display: grid;
-                grid-template-columns: 90% 10%;
-            ">
-                <div>
-                    <input type="text" id="homepage_search_text" name="homepage_search_text" placeholder="Start a new job search">
+            <div class="wlcomeBackText">
+                Welcome<br>Back!<br>
+                <a href="#signUpFormId" class="logInMobileViewToCreateAccount">Or Sign Up</a>
+            </div>
+
+            <div class="logInContents">
+                <form class="logInForm">
+
+                    <div class="logInEmailSection">
+                        <div class="logInLabel">
+                            <label for="sign_up_email">Email:</label><br>
+                        </div>
+                        <div class="logInInputFieldContainer_outer">
+                            <div class="logInInputFieldContainer">
+                                <div class="logInIcons">
+                                    <img src="../graphics/icons/email_icon.svg" alt="email Icon">
+                                </div>
+                                <input type="log_in_email" id="log_in_email" name="log_in_email" class="logInInputField">
+                            </div>
+                            
+                        </div>
+    
+                    </div>
+    
+                    <div class="logInPasswordSection">
+                        <div class="logInLabel">
+                            <label for="sign_up_password">Password:</label><br>
+                        </div>
+                        <div class="logInInputFieldContainer_outer">
+                            <div class="logInInputFieldContainer">
+                                <div class="logInIcons">
+                                    <img src="../graphics/icons/password_icon.svg" alt="email Icon">
+                                </div>
+                                <input type="log_in_password" id="log_in_password" name="log_in_password" class="logInInputField">
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="logInOptions">
+                        <div class="stayLoggedInCheckBox">
+                            <label>
+                                <input type="checkbox" name="remember_me" value="yes"> Remember Me
+                            </label>
+                        </div>
+                        <div class="forgetPasswordOption">
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                    </div>
+                    
+                    <div class="logInEmptySection"></div>
+
+                    <div class="logInButton">
+                        <input type="submit" value="Log In">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+        <div class="SignUpContainer">
+            <form class="signUpForm" id="signUpFormId">
+
+                <div class="createAccountContainer">
+                    <div class="horizontalLine">
+                        <span class="horizontalLine_inner"></span>
+                    </div>
+                    <div class="createAccountText">Create Account</div>
+                    <div class="horizontalLine">
+                        <span class="horizontalLine_inner"></span>
+                    </div>
                 </div>
-                <div>
-                    <button type="submit" ><a href="./search_results.html"><img src="../graphics/icons/small_search_Icon.svg"></a></button>
+
+                <div class="signUpElementIntro">
+                    Welcome to the Nepaworks community! As a member, you'll have access to a network of skilled professionals and businesses in Nepal, as well as the opportunity to advertise your own expertise and services. We're glad to have you on board and look forward to helping you succeed.
                 </div>
+
+                <div class="signUpNameSection">
+                    <div class="signUpInputFieldContainer_outer">
+                        <div class="signUpInputFieldContainer">
+                            <div class="signUpIcons">
+                                <img src="../graphics/icons/person_icon.svg" alt="Person Display Icon">
+                            </div>
+                            <input type="sign_up_name" id="sign_up_name" name="sign_up_name" class="signUpInputField" placeholder="Name">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="signUpEmailSection">
+                    <div class="signUpInputFieldContainer_outer">
+                        <div class="signUpInputFieldContainer">
+                            <div class="signUpIcons">
+                                <img src="../graphics/icons/email_icon.svg" alt="email Icon">
+                            </div>
+                            <input type="sign_up_email" id="sign_up_email" name="sign_up_email" class="signUpInputField" placeholder="Email">
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="signUpPasswordSection">
+                    <div class="signUpInputFieldContainer_outer">
+                        <div class="signUpInputFieldContainer">
+                            <div class="signUpIcons">
+                                <img src="../graphics/icons/password_icon.svg" alt="email Icon">
+                            </div>
+                            <input type="sign_up_password" id="sign_up_password" name="sign_up_password" class="signUpInputField" placeholder="Password">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="signUpButton">
+                    <input type="submit" value="Sign Up">
+                </div>
+
             </form>
-
-            <div class="search_result_items item1">
-                <div class="job_title">
-                    <div class="job_type" data-text="Translation:"></div>
-                    <div class="job_text" data-text="Need Translation Services from English to Nepali"></div>
-                    <div class="job_location" data-text="(Lalitpur)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 5/word"></div>
-                    <div class="job_time" data-text="1 week"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item2">
-                <div class="job_title">
-                    <div class="job_type" data-text="Graphic Design:"></div>
-                    <div class="job_text" data-text=" Seeking Graphic Designer for Website Redesign"></div>
-                    <div class="job_location" data-text="(Kathmandu)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 50,000-60,000"></div>
-                    <div class="job_time" data-text="3 week"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item3">
-                <div class="job_title">
-                    <div class="job_type" data-text="Writing:"></div>
-                    <div class="job_text" data-text="Seeking Content Writer for Blog Posts"></div>
-                    <div class="job_location" data-text="(Kathmandu)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 1,000/article"></div>
-                    <div class="job_time" data-text="As needed"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item4">
-                <div class="job_title">
-                    <div class="job_type" data-text="Marketing:"></div>
-                    <div class="job_text" data-text="Seeking Social Media Manager for Local Business"></div>
-                    <div class="job_location" data-text="(Biratnagar)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 30,000-50,000/month"></div>
-                    <div class="job_time" data-text="Ongoing"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item5">
-                <div class="job_title">
-                    <div class="job_type" data-text="Photography:"></div>
-                    <div class="job_text" data-text="Need Professional Photographer for Event"></div>
-                    <div class="job_location" data-text="(Pokhara)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 10,000-15,000"></div>
-                    <div class="job_time" data-text="1 week"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item6">
-                <div class="job_title">
-                    <div class="job_type" data-text="Electrical repair:"></div>
-                    <div class="job_text" data-text="Need Electrician for Commercial Building"></div>
-                    <div class="job_location" data-text="(Lagankhel)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 5,000-10,000"></div>
-                    <div class="job_time" data-text="2 days"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="search_result_items item7">
-                <div class="job_title">
-                    <div class="job_type" data-text="Plumbing:"></div>
-                    <div class="job_text" data-text="Seeking Plumber for Home Repair"></div>
-                    <div class="job_location" data-text="(Lagankhel)"></div>
-                </div>
-                <div class="job_box_options">
-                    <div class="pay_rate" data-text="NPR 30,000-50,000"></div>
-                    <div class="job_time" data-text="10 days"></div>
-                    <div class="view_more_btn"><a href="#">View More</a></div>
-                    <div class="apply_btn"><a href="#">Apply</a></div>
-                </div>
-            </div>
-
-            <div class="load_more_btn_container">
-                <a href="#" class="load_more_btn">Load More</a>
-            </div>
         </div>
     </section>
 
@@ -300,6 +307,9 @@
             </div>
         </div>
     </section>
+
+
+    
 </body>
 
 </html>
