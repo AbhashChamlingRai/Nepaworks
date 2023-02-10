@@ -378,7 +378,7 @@
         /* background-color: yellow; */
     }
     .logInSignUpContainer{
-        height: 87vh;
+        height: 92vh;
     }
     .signUpInputField::placeholder {
         font-size: 3vw;
@@ -392,7 +392,7 @@
 }
 @media (max-width: 500px) {
     .logInSignUpContainer{
-        height: 79vh;
+        height: 90vh;
     }
 }
 @media (max-width: 400px) {
@@ -401,7 +401,7 @@
         /* background-color: yellow; */
     }
     .logInSignUpContainer{
-        height: 77vh;
+        height: 84vh;
     }
     .signUpInputField::placeholder {
         font-size: 4vw;
@@ -422,7 +422,7 @@
 }
 @media (max-width: 300px) {
     .logInSignUpContainer{
-        height: 76vh;
+        height: 82vh;
     }
     .signUpInputField::placeholder {
         font-size: 5vw;
