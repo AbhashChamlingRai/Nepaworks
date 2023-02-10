@@ -135,7 +135,9 @@ button {
 .homepage_top_section_left_bottom_item1 button img {
     padding-top: 7%;
 }
-
+.SearchField_SearchIcon {
+    width: 87%;
+}
 
 .homepage_top_section_left_bottom_item2 {
     /* border: 1px solid green; */

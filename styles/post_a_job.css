@@ -14,7 +14,7 @@ input {
     font-size: 1.3vw;
     font-family: 'Jost', sans-serif;
 
-    box-shadow: rgba(0, 0, 0, 0.1.5) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 29px 0px;
 }
 .footer_section {
     box-sizing:content-box;
@@ -136,7 +136,7 @@ form {
     text-align: center;
     font-size: 1.3vw;
     font-family: 'Jost', sans-serif;
-    box-shadow: rgba(0, 0, 0, 0.1.5) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 29px 0px;
 }
 .post_a_job_button {
 }
@@ -157,7 +157,7 @@ form {
 
     margin-top: 2.5%;
 
-    box-shadow: rgba(0, 0, 0, 0.1.5) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 29px 0px;
 }
 .post_a_job_button button:hover {
     background-color: #1283DD;

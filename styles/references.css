@@ -13,20 +13,22 @@ body {
     background-color: #121919;
 
     padding: 4% 15% 5% 15%;
-}
-.review_outer div {
+    width: 100%;
     /* border: 1px solid red; */
 }
 .review_inner {
     height: 100%;
     width:100%;
 
-    display: grid;
-    grid-template-rows: repeat(9, 1fr);
+    display: table;
     row-gap:5%;
+    width: 100%;
 }
-.review_inner div {
-    /* padding: 3%; */
+.review_inner a{
+    font-weight: 600;
+}
+.review_inner a:hover {
+    color:chocolate;
 }
 .references_title {
     font-family: 'Jost', sans-serif;
@@ -67,16 +69,22 @@ body {
         height: 70vh;
     }
     .references_title {
-        font-size:2.8vw;
+        font-size:2.9vw;
     }
     .refrence_item {
         font-size:1.5vw;
     }
 }
 
-
-@media (max-width: 600px) {
-}
-
 @media (max-width: 500px) {
+    .review_outer {
+        height: 70vh;
+        padding: 10% 15% 10% 15%;
+    }
+    .references_title {
+        font-size:4vw;
+    }
+    .refrence_item {
+        font-size:2vw;
+    }
 }
