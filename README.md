@@ -1,0 +1,2 @@
+# Nepaworks
+Nepaworks is a platform designed to connect service providers and clients in Nepal. The website's main idea is to provide a simple and user-friendly platform where service providers can advertise their expertise and clients can find the right service provider for their needs. The platform is particularly aimed at helping beginners in their field to find work and connect with experienced professionals.
