@@ -428,17 +428,18 @@ button {
 @media (max-width: 600px) {
     body {
         width: 100%;
-        background-color: yellow;
+        /* background-color: yellow; */
         box-sizing: border-box;
         overflow-x: hidden;
     }
     .homepage_top_section{
         width: 100%;
-        height: 110vh;
+        height: 80vh;
         position: relative;
     }
     .homepage_purpose_section{
         width: 100%;
+        height: 50vh;
     }
     .homepage_top_section_left, .homepage_top_section_right {
         background-image: none;
@@ -462,7 +463,7 @@ button {
     }
     .homepage_top_section_left_bottom {
         /* border: 1px solid red; */
-        width: 97vw;
+        width: 100vw;
         padding: 3.5% 2%;
         box-sizing: border-box;
         background-color: #2B314A;
@@ -578,5 +579,37 @@ button {
         width: 90%;
         text-align: center;
         font-size: 2.4vw;
+    }
+}
+@media (max-width: 500px) {
+    .homepage_top_section{
+        height: 70vh;
+    }
+    .homepage_purpose_section{
+        height: 41vh;
+    }
+}
+@media (max-width: 400px) {
+    .homepage_top_section{
+        height: 60vh;
+    }
+    .homepage_purpose_section{
+        height: 35vh;
+    }
+}
+@media (max-width: 350px) {
+    .homepage_top_section{
+        height: 50vh;
+    }
+    .homepage_purpose_section{
+        height: 30vh;
+    }
+}
+@media (max-width: 300px) {
+    .homepage_top_section{
+        height: 45vh;
+    }
+    .homepage_purpose_section{
+        height: 26vh;
     }
 }

@@ -266,9 +266,12 @@
     }
 }
 @media (max-width: 800px) {
-    
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 3.5vw;
+    }
     .logInSignUpContainer{
-        height: 140vh;
+        height: 115vh;
         grid-template-rows: 50% 50%;
         grid-template-columns: auto;
     }
@@ -363,12 +366,75 @@
         /* border: 1px solid red; */
     }
 }
+@media (max-width: 700px) {
+    
+    .logInSignUpContainer{
+        height: 100vh;
+    }
+}
 @media (max-width: 600px) {
     body {
         overflow-x:hidden;
         /* background-color: yellow; */
     }
     .logInSignUpContainer{
-        height: 120vh;
+        height: 87vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 3vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 3vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 6.5vw;
+    }
+}
+@media (max-width: 500px) {
+    .logInSignUpContainer{
+        height: 79vh;
+    }
+}
+@media (max-width: 400px) {
+    body {
+        overflow-x:hidden;
+        /* background-color: yellow; */
+    }
+    .logInSignUpContainer{
+        height: 77vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 4vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 4vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 8vw;
+    }
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 5vw;
+    }
+    .logInMobileViewToCreateAccount {
+        font-size: 5vw;
+    }
+}
+@media (max-width: 300px) {
+    .logInSignUpContainer{
+        height: 76vh;
+    }
+    .signUpInputField::placeholder {
+        font-size: 5vw;
+    }
+    .logInLabel label, .stayLoggedInCheckBox label, .forgetPasswordOption, .logInButton input {
+        font-size: 5vw;
+    }
+    .wlcomeBackText, .createAccountText {
+        font-size: 10vw;
+    }
+    .logInForm input[type=email], .logInForm input[type=password],
+    .signUpForm input[type=text], .signUpForm input[type=email], .signUpForm input[type=password] {
+        font-size: 5vw;
     }
 }

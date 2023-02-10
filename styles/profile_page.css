@@ -527,7 +527,7 @@ body {
 
 @media (max-width: 600px) {
     .profile_section_outer {
-        height: 330vh;
+        height: 280vh;
     }
     .profile_section_inner_top {
         grid-template-columns: 1fr;
@@ -753,35 +753,76 @@ body {
     }
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 550px){
+    .profile_section_outer {
+        height: 250vh;
+    }
     .display_picture {
-        width:33vw;
-        height:33vw;
-        top: 4.8%;
+        width:30vw;
+        height:30vw;
+        top: 4%;
         left: 7%;
     }
     .user_full_anem {
-        top: 8.8%;
+        top: 8.3%;
         left: 40%;
+        font-size: 4vw;
     }
-    .download_resume_button {
-        top:12.2%;
-        left: 13.5%;
+    .user_profession{
+        top: 10.5%;
+        left: 42%;
+        font-size: 3.5vw;
     }
     .linkedin_icon{
-        /* top: 12%;
-        left: 78%; */
+        position: absolute;
+        top: 8.5%;
+        left: 78%;
+        /* font-size: 3.5vw; */
     }
     .email_icon{
-        /* top: 14%;
-        left: 78%; */
+        position: absolute;
+        top: 10.7%;
+        left: 78%;
+        /* font-size: 3.5vw; */
     }
     .twitter_icon{
-        /* top: 16.1%;
-        left: 78%; */
+        position: absolute;
+        top: 12.9%;
+        left: 78%;
+        /* font-size: 3.5vw; */
     }
-    .user_basic_info {
-        padding: 10% 0;
+    
+}
+
+@media (max-width: 500px) {
+    .profile_section_outer {
+        height: 220vh;
+    }
+}
+
+@media (max-width:450px) {
+    .profile_section_outer {
+        height: 200vh;
+    }
+}
+
+@media (max-width:400px) {
+    .profile_section_outer {
+        height: 190vh;
+    }
+}
+@media (max-width:375px) {
+    .profile_section_outer {
+        height: 175vh;
+    }
+}
+@media (max-width:325px) {
+    .profile_section_outer {
+        height: 155vh;
+    }
+}
+@media (max-width:300px) {
+    .profile_section_outer {
+        height: 145vh;
     }
 }

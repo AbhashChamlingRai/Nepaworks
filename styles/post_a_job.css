@@ -181,23 +181,8 @@ form {
     .post_a_job_outer {
         height:180vh;
     }
-}
-
-
-@media (max-width: 600px) {
-    .post_a_job_outer {
-        height:180vh;
-    }
-    .post_a_job_intro_text_left {
-        display: none;
-    }
-    .post_a_job_intro_text {
-        display: block;
-    }
     .post_a_job_intro_text_right {
-        font-size: 3vw;
-        padding: 0%;
-        text-align: center;
+        font-size: 2vw;
     }
     .top {
         font-size: 3vw;
@@ -213,7 +198,94 @@ form {
         width: 40%;
         font-size: 2.5vw;
     }
+    input {
+        font-size: 2.5vw;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .post_a_job_outer {
+        height:150vh;
+    }
+    .post_a_job_intro_text_left {
+        display: none;
+    }
+    .post_a_job_intro_text {
+        display: block;
+    }
+    .post_a_job_intro_text_right {
+        font-size: 3vw;
+        padding: 0%;
+        text-align: center;
+    }
+    .top {
+        font-size: 3.3vw;
+    }
+    .middle {
+        font-size: 2.2vw;
+    }
+    .attachment .bottom input {
+        width: 40%;
+        font-size: 2.3vw;
+    }
+    .category .bottom select, .post_a_job_button button {
+        width: 40%;
+        font-size: 2.5vw;
+    }
+    input {
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 500px) {
+    .post_a_job_outer {
+        height:140vh;
+    }
+    .post_a_job_intro_text_left {
+        display: none;
+    }
+    .post_a_job_intro_text {
+        display: block;
+    }
+    .top {
+        font-size: 3.4vw;
+    }
+    .middle {
+        font-size: 2.3vw;
+    }
+    .attachment .bottom input {
+        width: 40%;
+        font-size: 2.3vw;
+    }
+    .category .bottom select, .post_a_job_button button {
+        width: 40%;
+        font-size: 2.5vw;
+    }
+    input {
+        font-size: 3vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .post_a_job_outer {
+        height:134vh;
+    }
+    .top {
+        font-size: 3.4vw;
+    }
+    .middle {
+        font-size: 2.33vw;
+    }
+}
+@media (max-width: 500px) {
+    .post_a_job_outer {
+        height:134vh;
+    }
+    .top {
+        font-size: 4vw;
+    }
+    .middle {
+        font-size: 2.35vw;
+    }
 }

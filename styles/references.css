@@ -47,10 +47,10 @@ body {
         height: 80vh;
     }
     .references_title {
-        font-size:2.4vw;
+        font-size:2.8vw;
     }
     .refrence_item {
-        font-size:1.5vw;
+        font-size:1.7vw;
     }
 }
 @media (max-width: 1000px) {
@@ -58,10 +58,10 @@ body {
         height: 70vh;
     }
     .references_title {
-        font-size:2.4vw;
+        font-size:2.7vw;
     }
     .refrence_item {
-        font-size:1.5vw;
+        font-size:1.8vw;
     }
 }
 @media (max-width: 800px) {
@@ -69,22 +69,34 @@ body {
         height: 70vh;
     }
     .references_title {
-        font-size:2.9vw;
+        font-size:4vw;
     }
     .refrence_item {
-        font-size:1.5vw;
+        font-size:2.5vw;
     }
 }
 
 @media (max-width: 500px) {
     .review_outer {
-        height: 70vh;
+        height:60vh;
         padding: 10% 15% 10% 15%;
     }
     .references_title {
-        font-size:4vw;
+        font-size:5vw;
     }
     .refrence_item {
-        font-size:2vw;
+        font-size:2.6vw;
+    }
+}
+@media (max-width: 350px) {
+    .review_outer {
+        height: 60vh;
+        padding: 10% 15% 10% 15%;
+    }
+    .references_title {
+        font-size:7vw;
+    }
+    .refrence_item {
+        font-size:3.3vw;
     }
 }

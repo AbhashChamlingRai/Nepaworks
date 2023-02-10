@@ -183,3 +183,23 @@
     }
     
 }
+@media (max-width: 500px) {
+    .footer_section {
+        height: 19vh;
+    }
+}
+@media (max-width: 400px) {
+    .footer_section {
+        height: 16vh;
+    }
+}
+@media (max-width: 350px) {
+    .footer_section {
+        height: 14vh;
+    }
+}
+@media (max-width: 300px) {
+    .footer_section {
+        height: 12vh;
+    }
+}

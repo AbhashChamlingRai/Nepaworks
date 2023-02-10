@@ -245,7 +245,7 @@ body {
         background-color: #2B314A;
         height: 100vh;
 
-        width: 85vw;
+        width: 87vw;
         margin-left: -94vw;
         z-index: 10;
         position: fixed;
@@ -318,5 +318,22 @@ body {
       
     .nav_mobile:focus + .nav-menu {
         display: block;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .navigation_bar, .navbar_empty_section {
+        height: 5.5vh;
+    }
+}
+@media (max-width: 400px) {
+    .navigation_bar, .navbar_empty_section {
+        height: 4vh;
+    }
+}
+@media (max-width: 300px) {
+    .navigation_bar, .navbar_empty_section {
+        height: 4vh;
     }
 }
